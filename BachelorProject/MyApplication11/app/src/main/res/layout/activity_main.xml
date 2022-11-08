@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/messageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="30dp"
+        android:text="Please follow the link to finish our survey"
+        />
+
+    <TextView
+        android:id="@+id/onlyThisTimeForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:autoLink="web"
+        android:linksClickable="true"
+        />
+
+    <TextView
+        android:id="@+id/allowWhileUsingForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:autoLink="web"
+        android:linksClickable="true"
+        />
+
+    <TextView
+        android:id="@+id/denyForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:autoLink="web"
+        android:linksClickable="true"
+        />
+
+</LinearLayout>

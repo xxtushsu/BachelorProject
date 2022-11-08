@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyApplication10</string>
+
+    <string name="formLink"><a href="https://docs.google.com/forms/d/e/1FAIpQLScQGDEvxUpYBC6tZYtZh2kZCaWwfOLfieLiyto6j1iAgT9zqg/viewform?usp=sf_link">Survey Link</a></string>
+</resources>
